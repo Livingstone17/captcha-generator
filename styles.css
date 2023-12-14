@@ -75,3 +75,10 @@ button {
     /* align-items: center; */
     justify-content: center;
 }
+
+.correct{
+    color: darkgreen;
+}
+.wrong{
+    color: #ee7e6a;
+}
