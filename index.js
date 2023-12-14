@@ -19,10 +19,10 @@ status.innerText = "Captcha Generator"
 const checkCaptcha = () => {
 let userValue = document.getElementById("entered-captcha").value;
 if(userValue == captcha){
-    status.classList.add('correct')
+    status.style.color='green'
     status.innerText = "Correct!!"
 }else{
-    status.classList.add('wrong')
+    status.style.color='red'
     status.innerText = "Try Again!!"
     document.getElementById("entered-captcha").value = '';
     
